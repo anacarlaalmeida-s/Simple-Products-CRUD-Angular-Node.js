@@ -1,5 +1,5 @@
 {
-  "name": "First App Angular - CRUD Products",
+  "name": "angular-crud-products",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
