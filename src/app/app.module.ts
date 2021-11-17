@@ -34,8 +34,6 @@ import { registerLocaleData } from  '@angular/common';
 import { ForDirective } from './directives/for.directive';
 import { ProductUpdateComponent } from './components/product/product-update/product-update.component';
 import { ProductDeleteComponent } from './components/product/product-delete/product-delete.component';
-import { HashLocationStrategy, LocationStrategy } from '@angular/common';
-
 registerLocaleData(localePt);
 
 @NgModule({
@@ -73,9 +71,7 @@ registerLocaleData(localePt);
   ],
   providers: [{
     provide: LOCALE_ID,
-    useValue: 'pt-BR',
-   {provide: LocationStrategy, 
-    useClass: HashLocationStrategy}   
+    useValue: 'pt-BR'
   }],
   bootstrap: [AppComponent]
 })
