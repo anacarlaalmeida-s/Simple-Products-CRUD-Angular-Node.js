@@ -8,7 +8,7 @@ Aplicação sem necessidade de autenticação, concluída no intuito de estudar 
 Trata-se de um simples CRUD de produtos. 
 Foi utilizado de parâmetro a aula da Cod3r de Angular 9.
 
-O Back-end foi construído com Node.js, ele se encontra na branch "back-end" e seu deploy pela heroku no link abaixo:  
+O Back-end foi construído com Node.js, deploy pela heroku no link abaixo:  
 https://simple-crud-products.herokuapp.com
 
 
